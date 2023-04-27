@@ -1,0 +1,35 @@
+/* Components */
+@use 'functions' as *;
+
+.card {
+    max-width: 320px;
+    background-color: var(--clr-white);
+    padding: 1rem;
+    border-radius: 20px;
+
+    &__img {
+        border-radius: 10px;
+    }
+
+    &__heading {
+        margin-top: 1.5rem;
+        color: var(--clr-primary-dark);
+        font-weight: 700;
+        font-size: rem(22);
+        text-align: center;
+        line-height: 1.2;
+
+    }
+
+    &__paragraph {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 0 1rem;
+        color: var(--clr-primary-light);
+        font-size: rem(15);
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.4;
+
+    }
+}

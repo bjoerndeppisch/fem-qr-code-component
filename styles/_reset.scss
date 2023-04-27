@@ -1,0 +1,24 @@
+/* Reset */
+
+// Box sizing
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Reset margins
+* {
+    margin: 0;
+}
+
+// Set up the body
+body {
+    min-height: 100vh;
+}
+
+// Improve media defaults
+img {
+    max-width: 100%;
+    display: block;
+}
